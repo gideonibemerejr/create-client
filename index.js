@@ -64,3 +64,6 @@ const destinationDir = `${clientsDirectory}/${clientName}`
     else console.log(`🎉  Successfully created the ${clientName} client folder and subfolders! 🎉`.green);
   });
   
+  process.chdir(destinationDir)
+
+  
